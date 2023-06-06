@@ -4,10 +4,10 @@ export const useFetchData = () => {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("https://quickgold.es/archivos-cache/Fixingmadrid.txt")
+    fetch("https://quickgold.es/archivos-cache/Fixingbarcelona.txt")
       .then((response) => response.json())
-      .then((madrid) => {
-        setData(madrid);
+      .then((barcelona) => {
+        setData(barcelona);
         setLoading(true);
       });
   }, []);
