@@ -298,7 +298,7 @@ const Breadcrumbs = ()=>{
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                href: "https://quickgold.es/compro-oro-barcelona/",
+                href: "https://quickgold.es/compro-plata-barcelona/",
                 title: "Ir a casa compro plata Barcelona",
                 children: "Compro Plata Barcelona"
             })
